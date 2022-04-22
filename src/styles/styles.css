@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/*SECCION HEADER*/
+
+.cover {
+  height: 45vh;
+  width: auto;
+  background-color: #04bfad;
+  background-position: center;
+}
+
+.Header {
+  line-height: 1.5;
+  color: white;
+  padding: 30px, 40px;
+}
+
+.Header h1 {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  margin-left: 10%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.fondoSelect {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  background-color: rgba(36, 36, 36, 0.7);
+  border-width: 12px;
+  border-radius: 8px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*SECCION FILTROS*/
+
+.noDisponible {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+
+  color: rgb(255, 71, 71);
+  text-align: center;
+  font-size: 16px;
+}
+
+.containerFilters {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1920px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #024873;
+  color: white;
+  height: 12vh;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  margin: 30px;
+  border: 0;
+  height: 40px;
+  width: 150px;
+  border-radius: 7px;
+}
+
+.buttonLimpiar {
+  height: 40px;
+  width: 150px;
+  margin: 30px;
+  border: 0;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  background-color: #f25e5e;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+/*SECCION CARDS HOTELES*/
+
+.hoteles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.hotel {
+  width: 260px;
+  height: 36rem;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  margin: 35px;
+  border-radius: 20px;
+}
+.hotel h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.date {
+  background-color: #024873;
+  padding: 10px;
+  margin: 8px;
+  font-size: 0.65rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.hotel img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.descripcion {
+  padding: 10px;
+  margin: 5px;
+  font-size: 0.9rem;
+  color: #5c5b5b;
+  height: 8rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.descripcion::-webkit-scrollbar {
+  width: 6px;
+}
+
+.descripcion::-webkit-scrollbar-thumb {
+  background: #04bfad;
+  border-radius: 4px;
+}
+
+.ubicacion {
+  background-color: #024873;
+  padding: 10px;
+  margin: 8px;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 5px;
+}
+
+i {
+  padding: 0 0.5em;
+  color: #ffff;
+}
+
+.containerHabp {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.7rem;
+  margin: 10px;
+}
+
+.hab {
+  background-color: #024873;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.precio {
+  background-color: #024873;
+  border-radius: 5px;
+  color: #ffff;
+  padding: 10px;
+  width: 40%;
+}
+.btnReserva {
+  width: 100%;
+  border: none;
+  background-color: #04bfad;
+  color: white;
+  padding: 1em;
+  border-radius: 0 0 20px 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.btnReserva:hover {
+  font-size: 0.9rem;
+}
